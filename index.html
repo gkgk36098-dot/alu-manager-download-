@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ALU MANAGER | إدارة المنجور</title>
+  <meta name="description" content="ALU MANAGER - تطبيق إدارة المنجور والورشات، لتنظيم أعمال الألمنيوم والنجارة والمطابخ والواجهات والفواتير.">
+  <meta name="keywords" content="إدارة المنجور, ALU MANAGER, تطبيق ورشات, النجارة, الألمنيوم, المطابخ">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#101c2c">
+
+  <meta property="og:title" content="ALU MANAGER - إدارة المنجور">
+  <meta property="og:description" content="إدارة أعمال الورشات في تطبيق واحد.">
+  <meta property="og:type" content="website">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background: #f4f6f9;
+      color: #172536;
+      line-height: 1.9;
+    }
+
+    header {
+      background: #101c2c;
+      color: white;
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand {
+      font-size: 23px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .brand span {
+      color: #d7ad67;
+    }
+
+    header small {
+      color: #c5d0dc;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #101c2c, #243d56);
+      color: white;
+      text-align: center;
+      padding: 85px 20px 95px;
+    }
+
+    .hero .tag {
+      color: #e5bd79;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 {
+      font-size: clamp(34px, 7vw, 55px);
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      color: #d5dfeb;
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+
+    .download {
+      display: inline-block;
+      background: #d7ad67;
+      color: #101c2c;
+      padding: 13px 35px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 17px;
+      transition: 0.2s;
+    }
+
+    .download:hover {
+      background: #edc989;
+      transform: translateY(-2px);
+    }
+
+    .version {
+      display: block;
+      color: #c5d0dc;
+      font-size: 12px;
+      margin-top: 12px;
+    }
+
+    main {
+      max-width: 1050px;
+      margin: auto;
+      padding: 55px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 27px;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      text-align: center;
+      color: #667587;
+      margin-bottom: 35px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+    }
+
+    .feature {
+      background: white;
+      padding: 25px 20px;
+      border-radius: 13px;
+      border: 1px solid #e5eaf0;
+      text-align: center;
+    }
+
+    .feature .icon {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    .feature h3 {
+      font-size: 17px;
+      margin-bottom: 7px;
+    }
+
+    .feature p {
+      color: #718094;
+      font-size: 13px;
+    }
+
+    .about {
+      background: white;
+      border-radius: 14px;
+      padding: 30px 25px;
+      margin-top: 40px;
+      text-align: center;
+      border: 1px solid #e5eaf0;
+    }
+
+    .about p {
+      color: #667587;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .bottom {
+      text-align: center;
+      padding: 35px 15px;
+      background: #101c2c;
+      color: #c5d0dc;
+      font-size: 13px;
+    }
+
+    .bottom strong {
+      color: #e5bd79;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="brand">ALU <span>MANAGER</span></div>
+    <small>إدارة المنجور والورشات</small>
+  </header>
+
+  <section class="hero">
+    <div class="tag">نظام إدارة أعمال الورشات</div>
+    <h1>إدارة المنجور</h1>
+    <p>
+      أدوات عملية لتنظيم أعمال الألمنيوم والنجارة
+      والمطابخ والواجهات، وإدارة المشاريع والفواتير
+      من مكان واحد.
+    </p>
+
+    <a class="download"
+       href="https://www.mediafire.com/file/fqmqj9y7p3bgtag/ALU-MANAGER-v1.0.0.apk/file"
+       target="_blank" rel="noopener">
+      ⬇ تحميل التطبيق للأندرويد
+    </a>
+
+    <span class="version">Android · الإصدار 1.0.0</span>
+  </section>
+
+  <main>
+    <h2 class="section-title">ماذا يقدم التطبيق؟</h2>
+    <p class="intro">
+      مجموعة من الأدوات المخصصة لتنظيم أعمال المنجور
+      وتسهيل متابعة المشاريع اليومية.
+    </p>
+
+    <div class="features">
+
+      <div class="feature">
+        <div class="icon">🪚</div>
+        <h3>قص الألواح</h3>
+        <p>تنظيم القطع وحسابات قص ألواح الخشب.</p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🪟</div>
+        <h3>أعمال الألمنيوم</h3>
+        <p>تنظيم أعمال الألمنيوم ومستلزماتها.</p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🍽️</div>
+        <h3>المطابخ والخزائن</h3>
+        <p>إدارة أعمال المطابخ والخزائن والموبيليا.</p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🏢</div>
+        <h3>واجهات السيكوريت</h3>
+        <p>تنظيم مشاريع الواجهات الزجاجية.</p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">📁</div>
+        <h3>العملاء والمشاريع</h3>
+        <p>متابعة بيانات العملاء والمشاريع.</p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🧾</div>
+        <h3>العروض والفواتير</h3>
+        <p>تنظيم عروض الأسعار والفواتير.</p>
+      </div>
+
+    </div>
+
+    <section class="about">
+      <h2>عن ALU MANAGER</h2>
+      <p>
+        تطبيق مخصص لمساعدة ورشات المنجور على تنظيم
+        أعمالها اليومية وإدارة تفاصيل المشاريع
+        بطريقة عملية وسهلة الاستخدام.
+      </p>
+    </section>
+  </main>
+
+  <footer class="bottom">
+    <strong>ALU MANAGER</strong>
+    <p>إدارة المنجور · الإصدار 1.0.0</p>
+    <p>© 2026 جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
